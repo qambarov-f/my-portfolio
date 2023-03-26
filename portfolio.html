@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Photos/logo2.svg" type="image/icon type">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/2ce2dcdeef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+                <nav>
+                    <img src="Photos/logo.png" class="logo">
+                    <ul id="sideMenu">
+                       <li><a href="#header">Home</a></li>
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#services">Services</a></li>
+                       <li><a href="#portfolio">Portfolio</a></li>
+                       <li><a href="#contact">Contact</a></li>
+                       <i class="fas fa-times" onclick="closeMenu()"></i>
+                     </ul>
+                     <i class="fas fa-bars" onclick="openMenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Front-end Developer/Video Editor</p>
+                    <h1> Hi, I'm <span class="titleTag">Feyruz</span> Gambarov </h1>                    
+                </div>
+         </div> 
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Photos/photo_5269483766622045671_y.jpg" style="width: 420px;">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p style="margin: 10px 0px;">A motivated and creative individual seeking to embark on a fulfilling career. With a strong willingness to learn and grow, I am eager to take on new challenges and opportunities. As a self-starter, I possess excellent problem-solving skills and have a proven ability to work well under pressure. While I may be new to the workforce, I am committed to delivering high-quality work and contributing to the success of any team I am a part of. I am confident that my positive attitude, adaptability, and strong work ethic will make me a valuable asset to any organization.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <!-- skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li style="text-align:justify ;"><span>Thecnikal Skills</span><br> Html&CSS - JavaScript - React.js -
+                                Version control  <br> SEO - Redux -
+                                Next.js - Regex - npm.js - Github -
+                                Node.js  <br> WEBPACK - JQUERY - Git - Api -
+                                 Json Adobe Illustrator <br>
+                                Adobe PremierePro - 1C - MS Office -
+                                PropTypes</li>
+                            <li style="text-align:justify;"><span>Soft Skills</span><br> Agile - Communication - Teamwork -
+                                Problem solving  <br> Adaptability -
+                                Leadership - Time management -
+                                Creativity - Growth Mindset</li>
+                        </ul>
+                    </div>
+                    <!-- experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> Video Editor and Graphic Designer </span><br>I have been working as a video editor and graphic designer at the Iz Youth
+                                Organization for over a year now, where I have also served as a team leader,
+                                instructor, and mentor. I have helped many students gain proficiency in this
+                                field by offering video editing courses to incoming youth and organizing
+                                seminars. This has enabled me to contribute to the growth and development
+                                of young people in this area.</li>
+                            <li><span> Internship in "Algo" Academy </span><br>During my three months of volunteering as a front-end developer, I gained
+                                valuable experience in writing clean code and improving best practices. I
+                                also learned how to use Git and back-end tools such as SQL. This
+                                experience has helped me to enhance my skills and deepen my knowledge
+                                of web development.</li>
+                            <li><span> Kresendo - Simruq Marathon </span><br>Through the Kresendo Marathon, I have developed the ability to understand myself, set goals, break them down, and achieve them within a three-month period, while also honing my presentation skills. Over this period, I have written three blog posts and presented more than eight vlogs, earning recognition and rewards as the 3rd quarter and monthly volunteer of the year.</li>
+                            
+                        </ul>
+                    </div>
+                    <!-- education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2004 - 2015</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quod vel accusantium, exercitationem pariatur et!</li>
+                            <li><span>2004 - 2015</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quod vel accusantium, exercitationem pariatur et!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quod vel accusantium, exercitationem pariatur et!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, saepe. Et dignissimos possimus eos? Molestias quisquam dolor omnis, quis rem, et totam, eum aliquam sed nam laborum eius iure excepturi?</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-tv"></i>
+                <h3>Video Editor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, saepe. Et dignissimos possimus eos? Molestias quisquam dolor omnis, quis rem, et totam, eum aliquam sed nam laborum eius iure excepturi?</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h3>Videographer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, saepe. Et dignissimos possimus eos? Molestias quisquam dolor omnis, quis rem, et totam, eum aliquam sed nam laborum eius iure excepturi?</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Works</h2>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="Photos/55580.jpg">
+                <div class="layer">
+                    <h3 style="font-size: x-large;">Cinema Reservation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat cum impedit distinctio ipsa deleniti mollitia veniam voluptatem porro. </p>
+                    <a href="https://qambarov-f.github.io/cinema-reservation/cinema.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Photos/55581.jpg">
+                <div class="layer">
+                    <h3 style="font-size: x-large;">Calculator</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat cum impedit distinctio ipsa deleniti mollitia veniam voluptatem porro. </p>
+                    <a href="https://qambarov-f.github.io/calculator/calculator.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Photos/55582.jpg">
+                <div class="layer">
+                    <h3 style="font-size: x-large;">Hangman Game</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat cum impedit distinctio ipsa deleniti mollitia veniam voluptatem porro.</p>
+                    <a href="https://qambarov-f.github.io/hangman-game/hangman.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Photos/55583.jpg">
+                <div class="layer">
+                    <h3 style="font-size: x-large;">Translate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat cum impedit distinctio ipsa deleniti mollitia veniam voluptatem porro.</p>
+                    <a href="https://qambarov-f.github.io/translate-api/translate.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+          
+            <div class="work isShown">
+                <img src="Photos/55584.jpg">
+                <div class="layer">
+                    <h3 style="font-size: x-large;">Exhange Money Api</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat cum impedit distinctio ipsa deleniti mollitia veniam voluptatem porro.</p>
+                    <a href="https://qambarov-f.github.io/exchange-api/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work isShown">
+                <img src="Photos/55585.jpg">
+                <div class="layer">
+                    <h3 style="font-size: x-large;">Form Validator</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat cum impedit distinctio ipsa deleniti mollitia veniam voluptatem porro.</p>
+                    <a href="https://qambarov-f.github.io/form-validator/form.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work isShown">
+                <img src="Photos/55586.jpg">
+                <div class="layer">
+                    <h3 style="font-size: x-large;">Slider Carousel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat cum impedit distinctio ipsa deleniti mollitia veniam voluptatem porro.</p>
+                    <a href="https://qambarov-f.github.io/slider-projcet/slider.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+ 
+            <div class="work isShown">
+                <img src="Photos/55587.jpg">
+                <div class="layer">
+                    <h3 style="font-size: x-large;">Add Author and book name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat cum impedit distinctio ipsa deleniti mollitia veniam voluptatem porro.</p>
+                    <a href="https://qambarov-f.github.io/add-for-sth/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <button class="btn seeMore" onclick="toggleBtn()">See More</button>
+    </div>
+</div>
+
+<!-- Contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>gambarovfeyruz@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+994 55 328 19 49</p>
+                
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/feruz.qemberov/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/qambarov.f/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/0553281949"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/feyruz-qambarov-3136b5247/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/qambarov-f"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Photos/FeyruzGambarovResume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Mesage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Feyruz. Made with by <i class="fas fa-heart"></i> Feyruz Gambarov</p>
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="portfolio.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw5yIpv_rawwEXqhWrEbK5haQbBbK-awroNNrYQs7Spoc2MbESWYjYUn-mqTmduaBXw/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        });
+      </script>
+</body>
+</html>
