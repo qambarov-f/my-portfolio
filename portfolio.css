@@ -338,8 +338,8 @@ nav .fas{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(/Photos/qf01.jpg);
-        background-size: cover;
-        background-position: left;
+        background-size:cover;
+        background-position:unset;
     }
     .header-text{
         margin-top:85%;
